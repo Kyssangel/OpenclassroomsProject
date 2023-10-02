@@ -1,5 +1,6 @@
 .contenair {
     justify-content: center;
+
   }
   header {
     text-align: center;
@@ -8,18 +9,19 @@
            width: 162px;
     height: 44px;
     margin-top: 10px; 
+    .location {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 19px;
+      gap: 15px;
+      background: #eaeaea;
+      height: 50px;
+    }
     }
 
   }
 
-  .location {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 19px;
-    gap: 15px;
-    background: #eaeaea;
-    height: 50px;
-  }
+  
