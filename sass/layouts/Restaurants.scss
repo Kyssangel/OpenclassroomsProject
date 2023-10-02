@@ -1,0 +1,63 @@
+.section-restaurants {
+    background: #f6f6f6;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .section-restaurants h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 30px 0px 0px 20px;
+    height: 68px;
+    justify-content: left;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 251px;
+    box-shadow: 0px 4px 15px 0px #0000001a;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 70%;
+  }
+  .card-content {
+    border-radius: 15px;
+  }
+
+  .card-title {
+    top: 190px;
+    left: 13px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .card-text p {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 10px;
+  }
+  .card-like {
+    width: 22px;
+    height: 21px;
+    top: 197px;
+    left: 293px;
+    gap: 20px;
+  }
